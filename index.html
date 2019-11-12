@@ -6,7 +6,7 @@
 
     /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: deeppink;
   overflow: hidden;
 }
 
@@ -78,13 +78,10 @@ audio {
     
 body {
   
-  background-image: url(https://i.pinimg.com/originals/83/20/d2/8320d2e09ab7eb109dfb18d95cf9f76f.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+ 
      
   color: white;
-  background-color: black;
+  background-color: pink;
   font-size: 1.35em;
   margin-left: 20%;
   margin-right: 20%;
@@ -136,6 +133,9 @@ and (max-device-width : 580px) {
     
 <body>
     
+    
+    
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="topnav" id="myTopnav">
@@ -147,10 +147,7 @@ and (max-device-width : 580px) {
 </div>
     
 
-    <audio controls>
-    <source src="https://docs.google.com/uc?export=download&id=1X7EiWRx3Wg1uLtRaww582klUWYFrKjGl"
-    align="right" type="audio/mpeg">         
-    </audio>
+    
         
     
     
@@ -161,14 +158,14 @@ and (max-device-width : 580px) {
 <div id="text">
 </div>
 
-<input id="input" onkeypress="submitDogName(this)" placeholder='Enter your name to start'>
+<input id="input" onkeypress="submitDogName(this)" placeholder='Give Snuffles a message to start'>
 <div id="buttonBox">
 </div>
 
     
 <script>
     
-    
+     
     function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -222,13 +219,13 @@ var advanceTo = function(s) {
 scenario = {}
 var scenario = {
   one: {
-    image: "https://media1.tenor.com/images/8ec126a0060b7b28eb31086d037b507d/tenor.gif?itemid=5969410", //steam punk
-    text: "It's a cold, quiet night in Turbine City. The streets are alive with the swirling color of Autumn leaves hurried along by the breeze. The steady rhythmic beat of the turbine blades can be heard high above, a comforting sound as each turn collects energy to power the splendid metropolis below. In the glow of the moonlight the mountain city looks like a silvered crown of some dead forgotten giant, or perhaps the giant merely slumbers and these are it's dreams.. I give you Tales! From Turbine City!.. Enter your name to start.",
+    image: "https://lh3.googleusercontent.com/mVedWIHDkJ5BMwIjHQ4tzv3Q4HQVrjQgVGaMWv0ZVqau8vEl7AaWmo5b0DZ3uZIWzwe1YbPblHmof9OIY94gnQVIIHF8JSijJIFSiThDloukuxIQpj7NyN3Bb7stKZdbX44IT8e1wPsgcosAU-GziQlotbEK1rVGOlG2W5m0d0-UDWP-waNsWVKx5hNKGEyNSOW5OW95H3jdlGogYFvCDXDQ_-9al8xYK6Qcqg0UZ86QAaQDE_JOGYm9jYauDBbPTmZ8x4nysny0NhfjjNKA06Hll5cyCy37yYvg2xYDh0nxYUQvtaTWIRWj_0vbU_dLtNHXpRP54Enp4m0Q33nhAnVCRAhP11k_VnVVdqPYAuyVsRHpsATDtMqIr5FxNeHDYC8BWhuo12m_UqMB-nIUskOW7TXfDFBFdOvzlnczUvShCZDNKB5IwQzowN6rOqumc-YDAkHVk3ChrOotTrAosU_Bl9Dfp16oX4EJvrQnRg54dWKOKo4FGlK4XeqYq5X0LnawOgWj_wfG66MRZmk3f7U7ppPwXfxLQ4JMH3wf6jQHySePh6EfEi4rdTpqg7E97P7P6WhXTnvU-bWKSGWMj-VkZelguNmZgiNo6Ef_JuAgyh0csfzF_NxxN5niuJKQ8psgbYQedYW_m2pr1NSSESKq6d3YfPa0i4dPFF9tlfxXa0928gBLRrjV7RagUFG3aKzhHaCThf4vI9h9ntU7LUGqc34OYYG9Gy9vzX2cxczlA7wb=w461-h488-no", //steam punk
+    text: "Congratulations! You got the very best ending and have unlocked The Snuffle's Adventure! Enjoy the fruits of your labor!; Turbine City, south side, a few hours before dawn. We find ourselves in front of an old 'Coffin Apartment' building on Bazoo street. As the name implies the rooms are just enough to fit a bed, and small dressing closet. The bathrooms and kitchens are shared. On the third floor, on a comfortable dog bed lays a glossy black hog... ",
   },
   two: {
-    image: "https://blogs.uoregon.edu/hadsellsteampunk/files/2015/10/fanart3-1sbunis.jpg", //pic
-    text: "We find ourselves at the corner of Flatoil and Cog street. Looming above is a quaint apartment building. It is in the cold morning hours of predawn. A large, bald man wearing a mock sailor outfit wearily pulls out a large black key and enters. He climbs five flights of stairs, his feet feel like lead. Reaching the green door of his apartment he pushes the key in the lock, with a click the thick wooden door opens revealing a messy, one bedroom apartment.",
-    buttons: [["Enter apartment", "advanceTo(scenario.three)"],["A Brief History of Turbine City", "advanceTo(scenario.m)"]]
+    image: "", //pic
+    text: "You awake. You're are a truffle hog. You are Snuffles. Your master is Hector. Your name",
+    buttons: [["Wake Hector to feed you", "advanceTo(scenario.three)"],["Help yourself to the chow", "advanceTo(scenario.m)"],["Take a dump on the floor", "advanceTo(scenario.n)"]]
   },
   three: {
     image: "https://lh3.googleusercontent.com/b-zPOVnEIiH3shYVIRjjdUcAyv5XGCI0I_pDfHLw1TnbzN4zSJ_wSctf-cOQWuT8TXMeAYKgSLQf-VIAKxXm4k5oDfEW4_30jZij1lUYG_7kGsYp5YrzHS0JGLEW4JU-3v0UPyqup9UXbg7Hsx3baqBqjH14zzpdamv9LiWSSgfNVhXzUbKZNYpY3njmbhiYHrcIyfPcqaAPeQPE7RQj6oRfpvhdyIwIjwNzRoF_kgFqX8qXRSEiP5At01JpMmvO76K5Lz4NaMAnwXSgSVFXX1aNdYNtUs7CnNzH3feUQP-4_7qLfZPwWz-H5GosdsigjrL6b8ETWd-RDTAVcFVVhVJzI8hNyPY_yYk2mEbEgQcpGXmngv3QZ7ATv-7Z1ztuFrGOeCvC41lnHrX6Hi0HCqqxN7qv3EGl18-7zunhiNLxHhZF3_RT71PJoNvofrYbAUlgraDJhYZhry9_NyuFV1VaBsLY68UP2SfypsFXCUZY0SHvnbjwNCnI8nlKZ6T0Sz8QWLB0w6zY7i_Ltx2fAUGcjmwFqeZ3TncDywPQZuNhucPWyOV9D_akOEkpuFRTc-xpfFsRoLyE9PSozNxVowC6tjlCqQ8iB1gJgysa8eIfFS-RGJoPII3TdQDt1pjQ6afbftNC5bneHpYB00dPYmeJd7HH0XPeQlgKTCxf2jDDOlbMlieNRfs=w1617-h1067-no",
